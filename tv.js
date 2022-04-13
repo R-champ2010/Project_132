@@ -9,7 +9,7 @@ img="";
 objects=[];
 
 function preload(){
-    img= loadImage('desk.jpg');
+    img= loadImage('tv.png');
     
 }
 
@@ -31,7 +31,6 @@ function draw(){
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
     }
-
 
 }
 
